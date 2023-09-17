@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   
+</head>
+<body>
+    
+    <div class="main">
+        <img style="height: 8.5vh;margin-left: 2%;" src="images/4.png" alt="">
+        <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">portfolio</a></li>
+              <li><a href="#">service</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <input type="text" id="searchInput" placeholder="Search...">
+        <ul id="searchResults"></ul>
+    </div>
+<hr>
+<div style=" 100%;height: 85vh;display: flex;">
+    <section style="width: 50%;height: 85vh;">
+        <div class="DIV1">Hello!</div>
+        <div class="DIV2"> I'M SHIVANI</div>
+        <div class="DIV3"> Let's Talk</div>
+        <div class="DIV4"> Follow me</div>
+       
+            <div >
+                <a href="https://www.instagram.com/shiv_aani_01" target="img"  >
+                <img  class="instagram-icon" src="images/instagram-icon-white-on-black.png" alt="img">
+                </a>
+            </div>
+    </section>
+    <section style=" 50%;height: 85vh;">
+        
+       <div style="position: relative;">
+        <div class="circle"></div>
+        <div  class="circle">
+            <img  src="images/final.png" alt="Your Image">
+          </div>
+        </div> 
+    
+    </section>
+    </div>
+    <DIV style="display: flex;">
+      <SECtion style="height: 100VH;width: 50%;"> 
+        <DIV class="aboutme"><STrong>ABOUT ME</STrong></DIV>
+        <div class="creative">A Creative and hardworking graphic designer , who want to go on the creativity</div>
+        <div class=" Education"><STRong>EDUCATION</STRong></div>
+        <div>
+          <ul class="UL">
+            <li>10th <br>From BHAGATJI MEMORIAL MODEL SCHOOL</li>
+            <li>12th <br>From SARVODYA KANYA VIDHALAYA</li>
+            <li>GRADUATION(BA) <br>SWAMI SHRADHANAND COLLEGE</li>
+          </ul>
+        </div>
+      </SECtion>
+      <SECtion style=";height: 100VH;width: 50%;">
+        <DIV >
+            <img class="circlesss" style="height: 70vh;border-radius: 10%; margin-top: 15vh;margin-left: 20%;" src="images/IMG_20230404_170230.jpg" alt="">
+        </DIV>
+     </SECtion>
+ 
+    </DIV>
+    <div style=" height: 150vh;width: 100%;display: inline;">
+       <div style="margin-top: -5vh" class="selected"> <STrong>SELECTED WORK</STrong></div>
+       </div>
+       <div class="slide-container">
+        <div class="slide">
+          <img style="height: 500px;margin-top: 5%; margin-left: 8%;" src="images/COFFEEE-3.png" alt="">
+          <img style="height: 500px;margin-top: 5%; margin-left: 8%;" src="images/pperfume.png" alt="">
+        
+        </div>
+        <div class="slide">
+            <img style="height: 500px;margin-top: 5%; margin-left: 8%;" src="images/SOCIAL-MEDIA-POST-[Recovered].png" alt="">
+            <img style="height: 500px;margin-top: 5%; margin-left: 8%;" src="images/COFFEE-2.png" alt="">
+          
+        </div>
+        <div class="slide">
+           
+            <img style="height: 500px;margin-top: 5%; margin-left: 26%;" src="images/typograPHY.png" alt="">
+          
+        
+        </div>
+        
+        <div  class="arrow arrow-left" onclick="changeSlide(-1)">&#10094;</div>
+        <div  class="arrow arrow-right" onclick="changeSlide(1)">&#10095;</div>
+      </div>
+      <div style=";height: 100vh;width: 100%;margin-top: 4vh; display: flex;">
+        <section style="height: 100vh ;width: 33.3%;">
+                <div class="serviceoffer"><strong>SERVICE I OFFER</strong></div>
+                <div class="creative">I offer you proper work on time </div>
+               <div>
+                 <div id="circle" style="background-color: antiquewhite;border-radius: 50%;height: 100px;width: 100px;margin-left: 54%;display: flex;justify-content: center;align-items: center; font-size: 40px;">1</div>
+                 <div  style="background-color: antiquewhite;height: 10vh;width: 70%;margin-left: 30%;margin-top: -5vh;display: flex;justify-content: center;align-items: center;">
+                  <strong>GRAPHIC DESIGNING</strong>
+                </div>
+                 <div id="slidedown" style="background-color: antiquewhite;height: 20vh;width: 70%; margin-left: 30%;display: none;">
+                <UL>
+                  <LI>Logo</LI>
+                  <LI>Poster</LI>
+                  <LI>Brosher</LI>
+                  <LI>Illustration</LI>
+                  <LI>advertisement</LI>
+      mouseenter                </UL>
+                
+                
+                
+                </div>
+               </div>
+        </section>
+        <section style="height: 100vh ;width: 33.3%;">
+          <div>
+          <div id="circle1" style="background-color: antiquewhite;border-radius: 50%;height: 100px;width: 100px;margin-left: 40%;margin-top: 45%;display: flex;justify-content: center;align-items: center; font-size: 40px;">2</div>
+          <div  style="background-color: antiquewhite;height: 10vh;width: 70%;margin-left: 15%;margin-top: -4vh;display: flex;justify-content: center;align-items: center;">
+          <STrong>MS-OFFICE</STrong>
+          </div>
+          <div id="slidedown1" style="background-color: antiquewhite;height: 20vh;width: 70%; margin-left:15%;display: none;">
+          <ul>
+                  <li>Notepad</li>
+                  <li>Wordpad</li>
+                  <li>excel</li>
+                  <li>powerpoint</li>
+                  <li>paint</li>
+           </ul>
+          
+          
+          </div>
+        </div>
+        </section>
+        <section style="height: 100vh ;width: 33.3%;">
+          <div>
+          <div id="circle2" style="background-color: antiquewhite;border-radius: 50%;height: 100px;width: 100px;margin-left: 25%;margin-top: 45%; display: flex;justify-content: center;align-items: center; font-size: 40px;">3</div>
+          <div  style="background-color: antiquewhite;height: 10vh;width: 70%;margin-top: -4vh;display: flex;justify-content: center;align-items: center;">
+          <STrong>WEB DESIGNING</STrong>
+          </div>
+          <div id="slidedown2" style="background-color: antiquewhite;height: 20vh;width: 70%;display: none;">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVA</li>
+            
+       </ul></div>
+          </div>
+    
+    
+    
+    
+    
+    </div>
+    <DIV style="background-color: aqua;height: 100VH;width: 100%;display: flex;">
+      <section style="background-color: antiquewhite;height: 100vh;width: 50%;">
+        <div style="background-color: WHITE; height: 8VH;" class="serviceoffer"><strong>CONTACT ME</strong></div>
+        <DIV style=" 7VH;width: 50%;display: flex;margin-left: 8%;margin-top: 2vh;">
+        <img style="height: 5vh;" src="images/MAIL.png" alt="">
+        <div style="display: flex;justify-content: centre;align-items: center;font-size: 20px;margin-left: 3%;margin-top: -1%;">shivanichauhan2609@gmail.com</div>
+        </DIV>
+        <DIV style=" 7VH;width: 50%;display: flex;margin-left: 8%;margin-top: 2vh;">
+          <img style="height: 5vh;" src="images/ca.png" alt="">
+          <div style="display: flex;justify-content: centre;align-items: center;font-size: 20px;margin-left: 3%;margin-top: -1%;">8447441034</div>
+          </DIV>
+        
+      
+      
+      
+      
+      
+      </section>
+      <section style="background-color: antiquewhite;height: 100vh;width: 50%;">
+        <DIV style="background-color: aqua;height: 70VH;width: 70%;margin-top: 30VH;display: INLINE;margin-left: 20%;">
+         <FORm>
+               <INPut style="background-color: black;height: 5VH;width: 50%; margin-top: 30VH;font-size: 15PX; color: WHITE;" placeholder="ENTER NAME"></INPut>
+               <input type="email" style="background-color: black;height: 5VH;width: 50%; margin-top: 1VH;font-size: 15PX;color: WHITE;" placeholder="ENTER GAMIL"></INPut>
+               <INPut style="background-color: black;height: 20VH;width: 50%;margin-top: 1VH;"></INPut><BR></BR>
+               <BUtton type="submit" style="background-color: RED;color: white;height: 4VH;margin-top: -3VH;">SUBMIT</BUtton>
+          </FORm>
+        </DIV>
+        </section>
+
+
+
+
+
+    </DIV>
+    
+    
+    
+    <
+    <script>
+        let slideIndex = 0;
+        showSlide(slideIndex);
+        
+        function changeSlide(n) {
+          showSlide(slideIndex += n);
+          
+        }
+        
+        function showSlide(n) {
+          const slides = document.getElementsByClassName("slide");
+          
+          if (n >= slides.length) {
+            slideIndex = 0;
+          }
+          
+          if (n < 0) {
+            slideIndex = slides.length - 1;
+          }
+          
+          for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          
+          slides[slideIndex].style.display = "block";
+        }
+
+
+        
+
+        
+      </script>
+    <script>
+      $(document).ready(function(){
+  $("#circle").mouseenter(function(){
+    $("#slidedown").slideToggle(2000);
+    
+  });
+});
+
+
+
+    </script>
+<script>
+   $(document).ready(function(){
+  $("#circle1").mouseenter(function(){
+    $("#slidedown1").slideToggle(2000);
+  });
+});
+</script>
+</script>
+<script>
+   $(document).ready(function(){
+  $("#circle2").mouseenter(function(){
+    $("#slidedown2").slideToggle(2000);
+  });
+});
+</script>
+
+
+
+
+
+    
+</body>
+</html>
